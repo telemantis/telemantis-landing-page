@@ -3,7 +3,7 @@ import App from "./App";
 
 export function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="telemantis-landing-page">
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
